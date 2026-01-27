@@ -27,3 +27,11 @@ based on the AdventureWorks database.
 
 ## Project status
 Work in progress 🚧
+
+
+
+## Business questions
+
+1. How does total sales value change over time?
+   - Monthly sales aggregated using OrderDate and TotalDue
+
