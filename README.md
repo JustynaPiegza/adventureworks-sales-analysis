@@ -20,6 +20,28 @@ based on the AdventureWorks database.
 - Creating aggregated sales metrics (monthly sales)
 - Exporting results to Excel for further analysis and visualization
 
+  ## SQL analysis
+
+### Data exploration and quality checks
+Before performing the analysis, basic data exploration was conducted to understand
+the structure and quality of the data. This included:
+- checking for null values in key columns
+- verifying the date range of available sales data
+
+Relevant queries can be found in:
+- `sql/00_data_exploration.sql`
+
+### Business analysis queries
+
+1. **Monthly sales over time**
+   - Aggregation of total sales value on a monthly level
+   - Sales value calculated using `TotalDue`
+   - Time dimension based on `OrderDate`
+
+   Query:
+   - `sql/01_monthly_sales.sql`
+
+
 ## Tools used
 - SQL Server (T-SQL)
 - SQL Server Management Studio (SSMS)
