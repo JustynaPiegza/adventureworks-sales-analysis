@@ -56,4 +56,10 @@ Work in progress 🚧
 
 1. How does total sales value change over time?
    - Monthly sales aggregated using OrderDate and TotalDue
+  
+## Insights
+
+- Total sales increase over time, especially between 2011 and 2013.
+- Sales in 2014 are lower, which may be caused by incomplete data for that year.
+- Monthly data shows changes that are not visible in yearly summaries.
 
