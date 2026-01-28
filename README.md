@@ -58,6 +58,7 @@ Work in progress 🚧
    - Monthly sales aggregated using OrderDate and TotalDue
   
 ## Insights
+Based on the analysis of monthly sales data:
 
 - Total sales increase over time, especially between 2011 and 2013.
 - Sales in 2014 are lower, which may be caused by incomplete data for that year.
