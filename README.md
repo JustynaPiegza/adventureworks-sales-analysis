@@ -41,6 +41,13 @@ Relevant queries can be found in:
    Query:
    - `sql/01_monthly_sales.sql`
 
+2.  **Monthly seasonality analysis**
+   - Comparison of order volume and average order value by calendar month
+   - Data aggregated across all years
+   - Used to identify seasonal patterns in customer behavior
+
+  Query:
+  - `sql/02_monthly_seasonality.sql`
 
 ## Tools used
 - SQL Server (T-SQL)
@@ -56,11 +63,22 @@ Work in progress 🚧
 
 1. How does total sales value change over time?
    - Monthly sales aggregated using OrderDate and TotalDue
+
+2. Is there a seasonal pattern in monthly sales?
+   - Analysis of order volume and average order value by calendar month
+   - Data aggregated across all available years
+
   
 ## Insights
 Based on the analysis of monthly sales data:
 
+**Overall sales trend**
 - Total sales increase over time, especially between 2011 and 2013.
 - Sales in 2014 are lower, which may be caused by incomplete data for that year.
 - Monthly data shows changes that are not visible in yearly summaries.
+
+**Seasonality**
+- The number of orders is higher in spring and at the end of the year.
+- Summer months show fewer orders, but the average order value is higher.
+- This suggests that seasonality affects both how often customers place orders and how much they spend.
 
