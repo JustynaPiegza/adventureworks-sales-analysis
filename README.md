@@ -49,6 +49,14 @@ Relevant queries can be found in:
   Query:
   - `sql/02_monthly_seasonality.sql`
 
+3.  **Top customers analysis**
+   - Aggregation of total sales value per customer
+   - Calculation of number of orders per customer
+   - Ranking based on total sales
+
+  Query:
+  - sql/03_top_customers.sql
+
 ## Tools used
 - SQL Server (T-SQL)
 - SQL Server Management Studio (SSMS)
@@ -68,6 +76,10 @@ Work in progress 🚧
    - Analysis of order volume and average order value by calendar month
    - Data aggregated across all available years
 
+3. Which customers generate the highest total sales value?
+   - Identification of top 10 customers by total revenue
+   - Analysis based on TotalDue and order count
+
   
 ## Insights
 Based on the analysis of monthly sales data:
@@ -81,4 +93,6 @@ Based on the analysis of monthly sales data:
 - The number of orders is higher in spring and at the end of the year.
 - Summer months show fewer orders, but the average order value is higher.
 - This suggests that seasonality affects both how often customers place orders and how much they spend.
+
+
 
