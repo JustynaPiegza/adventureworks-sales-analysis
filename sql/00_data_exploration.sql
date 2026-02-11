@@ -26,3 +26,13 @@ SELECT
 FROM Sales.SalesOrderHeader o
 LEFT JOIN Sales.Customer c
     ON o.CustomerID = c.CustomerID;
+
+-- Check missing values in order-related columns
+
+SELECT 
+	COUNT(*) AS total_orders,
+	SUM(CASE WHEN CustomerID IS NULL THEN 1 ELSE 0 END) AS missing_customer,
+	SUM(CASE WHEN ShipDate IS NULL THEN 1 ELSE 0 END) AS missing_ship_date,
+	SUM(CASE WHEN DueDate IS NULL THEN 1 ELSE 0 END) AS missing_due_date,
+	SUM(CASE WHEN TotalDue IS NULL THEN 1 ELSE 0 END) AS missing_total
+FROM Sales.SalesOrderHeader;
