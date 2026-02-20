@@ -37,6 +37,26 @@ The dataset contains information about orders, customers, dates and sales values
 - Creating aggregated sales metrics (monthly sales)
 - Exporting results to Excel for further analysis and visualization
 
+## Analysis Process
+1. Data exploration
+   - Checked database structure and key tables
+   - Verified relationships between sales and customer data
+2. Data quality check
+   - Checked for missing values in key columns
+   - Verified date ranges and consistency
+3. Data preparation
+   - Created aggregated datasets (monthly sales, customers totals)
+   - Extracted year and month from order dates
+4. SQL analysis
+   - Calculated total sales over time 
+   - Analyzed seasonal patterns
+   - Identified top customers by revenue
+5. Data export
+   - Exported query results from SQL Server to Excel for further analysis
+6. Excel analysis and visualization
+   - Created charts (line and column charts)
+   - Analyzed trends and comparisons 
+
   ## SQL analysis
 
 ### Data exploration and quality checks
