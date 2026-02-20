@@ -4,7 +4,6 @@ Sales analysis project using SQL Server and Excel (AdventureWorks database)
 # Sales Analysis Project (AdventureWorks)
 
 ## Business Goal
-
 The goal of this project is to analyze sales data to understand how sales change over time, 
 identify seasonal patterns, and find the most valuable customers.
 
@@ -20,6 +19,16 @@ based on the AdventureWorks database.
 - Database: AdventureWorks2014
 - Source: Microsoft sample database
 - Environment: SQL Server Management Studio (SSMS)
+- Type: Sales transactional database
+- Main tables used:
+    -Sales.SalesOrderHeader
+    -Sales.Customer
+    -Person.Person
+- Time range: 2011-2014
+- Number of records: over 30 000 orders
+
+The dataset contains information about orders, customers, dates and sales values.
+
 
 ## Scope of analysis
 - Exploring database structure and schemas
