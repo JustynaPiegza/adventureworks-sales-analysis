@@ -3,6 +3,15 @@ Sales analysis project using SQL Server and Excel (AdventureWorks database)
 
 # Sales Analysis Project (AdventureWorks)
 
+## Business Goal
+
+The goal of this project is to analyze the sales structure and understand:
+- how sales change over time,
+- how they are distributed across months,
+- who are the top customers.
+
+The analysis helps to better understand customer behavior and sales patterns.
+
 ## Project overview
 This project focuses on analyzing sales data using SQL Server and Excel.
 The main goal is to practice data exploration, cleaning, and basic business analysis
