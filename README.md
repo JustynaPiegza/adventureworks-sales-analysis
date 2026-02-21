@@ -94,6 +94,28 @@ Relevant queries can be found in:
   Query:
   - sql/03_top_customers.sql
 
+4. **Top Products by Revenue and Price
+   ### Analysis
+   - Calculated total revenue per product using SQL
+   - Joined sales data with product prices
+   - Calculated average product price
+   - Selected top 10 products by total revenue
+
+   ### Visualization
+   ![Top products by revenue](images/top_products_revenue.png)
+
+   ### Key Findings
+   - Average product price: ~727 USD
+   - Prices of top-selling products: 2200-3500 USD
+   - Highest total revenue: ~4.4M USD
+   - Most top products belong to the Mountain and Road bike categories
+
+   ### Insight
+   Top revenue is generated mainly by high-priced (premium) bikes.
+   These products cost much more than the average price, but they bring
+   the highest revenue.
+   This shows that premium products are key drivers of the company's sales.
+
 ## Tools used
 - SQL Server (T-SQL)
 - SQL Server Management Studio (SSMS)
