@@ -70,15 +70,21 @@ Relevant queries can be found in:
 
 ### Business analysis queries
 
-1. **Monthly sales over time**
+1. **Monthly sales over time
+   ### Analysis
    - Aggregation of total sales value on a monthly level
    - Sales value calculated using `TotalDue`
    - Time dimension based on `OrderDate`
+   - Data grouped by year and month
+   - Results ordered chronologically
+
+    ### Visualization
+   ![Monthly Sales Over Time](images
 
    Query:
    - `sql/01_monthly_sales.sql`
 
-2.  **Monthly seasonality analysis**
+3.  **Monthly seasonality analysis**
    - Comparison of order volume and average order value by calendar month
    - Data aggregated across all years
    - Used to identify seasonal patterns in customer behavior
