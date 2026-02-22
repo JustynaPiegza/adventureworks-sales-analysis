@@ -95,13 +95,29 @@ Relevant queries can be found in:
     This means that the company should continue its current sales strategy and focus on maintaining steady growth.
 
 
-3.  **Monthly seasonality analysis**
-   - Comparison of order volume and average order value by calendar month
+2.  **Monthly seasonality analysis
+   ### Analysis
+   - Compared the number of orders and average order value by month
    - Data aggregated across all years
-   - Used to identify seasonal patterns in customer behavior
+   - Identified seasonal patterns in customer behavior
 
-  Query:
-  - `sql/02_monthly_seasonality.sql`
+   ### Visualization
+   ![Sales seasonality](images/02_monthly_seasonality.png)
+
+   ### Key Findings
+   - The number of orders changes depending on the month
+   - Higher order volume appears in spring and autumn
+   - Average order value is higher in summer and autumn months
+   - February and April show lower sales activity
+   - Customer activity is not evenly distributed across the year
+
+   ### Insight
+   Sales show clear seasonal patterns. Some months generate more orders, 
+   while others bring higher order value.
+
+   This suggests that marketing and promotions should be adjusted to seasonal trends.
+   The company can focus more on high-performing months to increase revenue.
+   
 
 3.  **Top customers analysis**
    - Aggregation of total sales value per customer
