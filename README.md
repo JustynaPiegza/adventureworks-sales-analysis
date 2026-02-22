@@ -119,14 +119,32 @@ Relevant queries can be found in:
    The company can focus more on high-performing months to increase revenue.
    
 
-3.  **Top customers analysis**
+3.  **Top customers analysis
+    ### Analysis
    - Aggregation of total sales value per customer
    - Calculation of number of orders per customer
    - Ranking based on total sales
 
-  Query:
-  - sql/03_top_customers.sql
+     ### Visualization
+     ![Top customers](images/03_top_customers.png)
 
+     ### Key Findings
+     - The top 10 customers generate very high total sales compared to other customers
+     - Most top customers place a similar number of orders (around 12)
+     - High revenue is driven by both frequent orders and high order values
+     - The difference between the highest and lowest customer in the top 10 is relatively small
+     - A small group of customers contributes significantly to total company revenue
+
+     ### Insight
+
+      A small group of loyal customers generates a large share of total sales.
+      These customers place regular orders and create stable revenue for the company.
+
+      The company should focus on maintaining strong relationships with top customers
+      through loyalty programs, personalized offers, and dedicated support.
+      This can help increase long-term customer value and reduce the risk of losing key clients.
+
+ 
 4. **Top Products by Revenue and Price
    ### Analysis
    - Calculated total revenue per product using SQL
