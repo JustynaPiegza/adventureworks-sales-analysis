@@ -36,3 +36,11 @@ SELECT
 	SUM(CASE WHEN DueDate IS NULL THEN 1 ELSE 0 END) AS missing_due_date,
 	SUM(CASE WHEN TotalDue IS NULL THEN 1 ELSE 0 END) AS missing_total
 FROM Sales.SalesOrderHeader;
+
+-- Supporting analysis for Business Question 4
+-- Average product price
+
+SELECT 
+	AVG(ListPrice) AS average_price
+FROM Production.Product
+WHERE ListPrice > 0;
