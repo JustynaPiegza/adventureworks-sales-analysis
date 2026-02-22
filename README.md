@@ -79,10 +79,21 @@ Relevant queries can be found in:
    - Results ordered chronologically
 
     ### Visualization
-   ![Monthly Sales Over Time](images
+   ![Monthly Sales Over Time](images/01_monthly_sales.png)
 
-   Query:
-   - `sql/01_monthly_sales.sql`
+    ### Key Findings
+   - Sales increased from 2011 to 2014  
+   - Monthly sales change a lot over time  
+   - Some months show much higher sales than others  
+   - The highest sales were recorded in 2014  
+   - Certain periods have higher sales than average
+
+    ### Insight
+    Sales are growing over time, which shows that the company is developing well.  
+    Even though monthly results change, the overall trend is positive.  
+
+    This means that the company should continue its current sales strategy and focus on maintaining steady growth.
+
 
 3.  **Monthly seasonality analysis**
    - Comparison of order volume and average order value by calendar month
