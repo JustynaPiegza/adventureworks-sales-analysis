@@ -1,15 +1,16 @@
 -- Business question:
--- Which customers generate the highest total revenue?
+-- Which products generate the highest total revenue?
 
 -- Description:
--- Total sales and number of orders are calculated
--- Data is aggregated using CustomerID
--- Results are ordered by total sales in descending order
--- Top 10 customers are selected 
+-- Revenue is calculated per product using LineTotal
+-- Sales data is joined with product prices
+-- Results are ordered by total revenue in descending order
+-- Top 10 products are selected
 
 -- Business value:
--- Helps identify key customers for retention and loyalty programs
--- Supports sales and marketing prioritization
+-- Helps identify premium products driving company revenue
+-- Supports pricing and product strategy decisions
+
 
 SELECT TOP 10
 	p.Name,
